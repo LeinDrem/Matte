@@ -15,11 +15,11 @@ E:/GitHub/Matte/Matte/Matte
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-8649
+2365
 Successfully changed project path to: E:/GitHub/Matte/Matte/Matte
 E:/GitHub/Matte/Matte/Matte
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 24.88 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 25.67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002047 seconds.
+Registered in 0.002090 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 24.16 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 23.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.070 seconds
+- Completed reload, in  1.067 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003328 seconds.
+Registered in 0.003436 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.923 seconds
+- Completed reload, in  0.889 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1390 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 64.8 MB.
-System memory in use after: 64.8 MB.
+System memory in use after: 64.9 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1823.
-Total: 1.985500 ms (FindLiveObjects: 0.129000 ms CreateObjectMapping: 0.032200 ms MarkObjects: 1.720600 ms  DeleteObjects: 0.102900 ms)
+Total: 1.742100 ms (FindLiveObjects: 0.104800 ms CreateObjectMapping: 0.031800 ms MarkObjects: 1.504500 ms  DeleteObjects: 0.100300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -80,25 +80,41 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Atari.fbx
-  artifactKey: Guid(7b00fbfd17d60c149bad6b7f07df9b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Atari.fbx using Guid(7b00fbfd17d60c149bad6b7f07df9b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e9f60154ed98efec7101550909f61c') in 0.167943 seconds 
-  Import took 0.170253 seconds .
+  path: Assets/BorsaGame_Test.fbx
+  artifactKey: Guid(e1a458dd3af2e2b47beaa7366285a276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BorsaGame_Test.fbx using Guid(e1a458dd3af2e2b47beaa7366285a276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426e7785a0785f37d50666255a1ef422') in 0.155880 seconds 
+  Import took 0.157975 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.866551 seconds.
-  path: Assets/2048pool.fbx
-  artifactKey: Guid(ad9e3f1cd018c6d4fa5bd4d6847c53d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2048pool.fbx using Guid(ad9e3f1cd018c6d4fa5bd4d6847c53d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '785a4e3deb3b256e8aa37255365e74c4') in 0.119149 seconds 
-  Import took 0.121792 seconds .
+  Time since last request: 16.928703 seconds.
+  path: Assets/Materials/Glass.mat
+  artifactKey: Guid(1449e95e5af919b489464c99637e2c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Glass.mat using Guid(1449e95e5af919b489464c99637e2c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0316cb73d7b330e594b04cfc955757') in 0.018557 seconds 
+  Import took 0.020892 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 56.849881 seconds.
-  path: Assets/2048pool.fbx
-  artifactKey: Guid(ad9e3f1cd018c6d4fa5bd4d6847c53d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2048pool.fbx using Guid(ad9e3f1cd018c6d4fa5bd4d6847c53d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4721c34e4afd16f27406ed1e585976') in 0.123444 seconds 
-  Import took 0.126136 seconds .
+  Time since last request: 4.126467 seconds.
+  path: Assets/BorsaGame_Test.fbx
+  artifactKey: Guid(e1a458dd3af2e2b47beaa7366285a276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BorsaGame_Test.fbx using Guid(e1a458dd3af2e2b47beaa7366285a276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e437815976927dc85a4aa2a63a4c0004') in 0.051020 seconds 
+  Import took 0.053627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.417019 seconds.
+  path: Assets/BorsaGame_Test.fbx
+  artifactKey: Guid(e1a458dd3af2e2b47beaa7366285a276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BorsaGame_Test.fbx using Guid(e1a458dd3af2e2b47beaa7366285a276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178636bab5b3dd2fce2f1951cd22c389') in 0.048889 seconds 
+  Import took 0.051558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.890640 seconds.
+  path: Assets/BorsaGame_Test.fbx
+  artifactKey: Guid(e1a458dd3af2e2b47beaa7366285a276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BorsaGame_Test.fbx using Guid(e1a458dd3af2e2b47beaa7366285a276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adefd56af1ad4fcbd069e6904062c504') in 0.048689 seconds 
+  Import took 0.051313 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
