@@ -1,27 +1,14 @@
 fileFormatVersion: 2
-guid: 82965a1a63dc7b94cbeca355b8347345
+guid: 554fd8d587b3d574c9af3f1dd6970791
 ModelImporter:
   serializedVersion: 19301
-  internalIDToNameTable:
-  - first:
-      74: -203655887218126122
-    second: mixamo.com
+  internalIDToNameTable: []
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: PoorWoman
-    second: {fileID: 2100000, guid: 05ec8c91bf0fb174cad2d0ef11537e6b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: RagShirt
-    second: {fileID: 2100000, guid: 064dff8151a4dd04fa53e761170f5f99, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: mat_skin
-    second: {fileID: 2100000, guid: 05ec8c91bf0fb174cad2d0ef11537e6b, type: 2}
+      name: woman_rich
+    second: {fileID: 2100000, guid: a49cd49a758d48a4fb4a29463bc9734d, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
